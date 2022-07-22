@@ -1,0 +1,103 @@
+body {
+  font-family: "roboto", sans-serif;}
+
+:root: {-- --} 
+
+.header {background: #FFFFFF;}
+.hero {background: #2F303A;}
+.main {background: #E5E5E5;}
+.team {background: #F5F4FA;}
+.footer {background: #2F303A;}
+
+.list {list-style: none;}
+.link {text-decoration: none;}
+
+/*---header---*/
+.logo {font-family: 'raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    }
+.logo-studio-header {color: #000000;}
+
+.site-nav {font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    }  
+.site-nav:hover {color: #2196F3;}
+.site-nav:focus {background: #2196F3;}
+.contacts-header {font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    }
+.contacts-header:hover {color: #2196F3;}
+.contacts-header:focus{background: #2196F3;}
+
+/*---hero---*/
+.hero-title {font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.button {font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+.button:hover {background: #2196F3;}
+.button:focus{background: #2196F3;}
+
+/*---main---*/
+.text-title {font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.text {font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+.pretitle {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/*---team---*/
+
+/*---footer---*/
+.logo-studio-footer {color:  #FFFFFF;}
+.address {font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.contacts-footer {font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
