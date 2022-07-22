@@ -1,8 +1,8 @@
 body {
   font-family: "roboto", sans-serif;
-  background: var(--background-color);}
+  background: #FFFFFF;}
 
-.header {background: var(--background-color);}
+.header {background: #FFFFFF;}
 .hero {background: #2F303A;}
 .team {background: #F5F4FA;}
 .footer {background: #2F303A;}
@@ -10,7 +10,6 @@ body {
 .list {list-style: none;}
 .link {text-decoration: none;}
 
-:root {--background-color:#FFFFFF;}
 :root {--title-color: #212121;} 
 :root {--text-colore: #757575;}
 
