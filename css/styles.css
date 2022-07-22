@@ -1,16 +1,16 @@
 body {
-  font-family: "roboto", sans-serif;}
-
-:root: {-- --} 
+  font-family: "roboto", sans-serif;
+  background: #E5E5E5;}
 
 .header {background: #FFFFFF;}
 .hero {background: #2F303A;}
-.main {background: #E5E5E5;}
 .team {background: #F5F4FA;}
 .footer {background: #2F303A;}
 
 .list {list-style: none;}
 .link {text-decoration: none;}
+
+/*:root {-- --} 
 
 /*---header---*/
 .logo {font-family: 'raleway';
@@ -21,7 +21,6 @@ body {
     color: #2196F3;
     }
 .logo-studio-header {color: #000000;}
-
 .site-nav {font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -55,16 +54,21 @@ color: #FFFFFF;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    font-family: inherit;
     cursor: pointer;
+    ;
 }
-.button:hover {background: #2196F3;}
-.button:focus{background: #2196F3;}
-
+.button-color-main {color: #FFFFFF; background: #2196F3}
+.button-color-main:hover {color: #212121;} 
+.button-color-main:focus{background:  #F5F4FA;}
+.button-color-portfolio {color: #212121; background: #F5F4FA} 
+.button-color-portfolio:hover {color: #FFFFFF; background:  #2196F3;} 
+.button-color-portfolio:focus {color: #212121}
+  
 /*---main---*/
 .text-title {font-weight: 700;
     font-size: 14px;
@@ -78,8 +82,7 @@ color: #FFFFFF;
     letter-spacing: 0.03em;
     color: #757575;
     }
-.pretitle {
-    font-weight: 700;
+.pre-title {font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
@@ -88,16 +91,49 @@ color: #212121;
 }
 
 /*---team---*/
+.name {font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;}
+
+.job-title {font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
 
 /*---footer---*/
 .logo-studio-footer {color:  #FFFFFF;}
-.address {font-size: 14px;
+.address-footer {
+    font-family: "roboto";
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-.contacts-footer {font-size: 14px;
+.address-footer:hover {color: #2196F3;}
+.address-footer:focus {color: #2196F3;}
+.contacts-footer {font-family: "roboto";
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.contacts-footer:hover {color: #2196F3;}
+.contacts-footer:focus {color: #2196F3;}
+
+/*---portfolio---*/
+.portfolio-title {font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.portfolio-pre-title {font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
