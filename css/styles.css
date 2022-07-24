@@ -41,12 +41,12 @@ body {
 
 /*---hero---*/
 .hero-title {font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 .button {font-weight: 700;
     font-size: 16px;
@@ -80,11 +80,11 @@ color: #FFFFFF;
     color: var(--text-colore);
     }
 .pre-title {font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--title-color);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
 }
 
 /*---team---*/
