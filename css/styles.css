@@ -29,7 +29,7 @@ body {
     color: var(--title-color);
     }  
 .site-nav:hover {color: #2196F3;}
-.site-nav:focus {color: antiquewhite;}
+.site-nav:focus {color: #2196F3}
 .contacts-header {font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -37,7 +37,7 @@ body {
     color: var(--text-colore);
     }
 .contacts-header:hover {color: #2196F3;}
-.contacts-header:focus {color: antiquewhite;}
+.contacts-header:focus {color: #2196F3}
 
 /*---hero---*/
 .hero-title {font-weight: 900;
@@ -112,7 +112,7 @@ color: var(--title-color);
     color: #FFFFFF;
 }
 .address-footer:hover {color: #2196F3;}
-.address-footer:focus {color: antiquewhite;}
+.address-footer:focus {color: #2196F3;}
 .contacts-footer {font-family: "roboto";
     font-size: 14px;
     line-height: 1.71;
@@ -120,7 +120,7 @@ color: var(--title-color);
     color: rgba(255, 255, 255, 0.6);
 }
 .contacts-footer:hover {color: #2196F3;}
-.contacts-footer:focus {color: antiquewhite;}
+.contacts-footer:focus {color: #2196F3;}
 
 /*---portfolio---*/
 .button-color-portfolio { color: var(--title-color); background: #F5F4FA} 
