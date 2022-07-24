@@ -64,7 +64,7 @@ color: #FFFFFF;
 }
 .button-color-main {color: #FFFFFF; background: #2196F3}
 .button-color-main:hover {color: var(--title-color); background: #F5F4FA}
-.button-color-portfolio:focus{background: #2196F3}
+.button-color-main:focus{background: #2196F3}
 
 /*---main---*/
 .text-title {font-weight: 700;
