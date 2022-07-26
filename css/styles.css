@@ -64,7 +64,7 @@ body {
 }
 .button-color-main {color: #FFFFFF; background: #2196F3}
 .button-color-main:hover {color: var(--title-color); background: #F5F4FA}
-.button-color-main:focus{background: #2196F3}
+.button-color-main:focus {color: var(--title-color); background: #F5F4FA}
 
 /*---main---*/
 .text-title {font-weight: 700;
@@ -93,8 +93,8 @@ body {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-color);}
-
+    color: var(--title-color);
+}
 .job-title {font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -125,7 +125,7 @@ body {
 /*---portfolio---*/
 .button-color-portfolio { color: var(--title-color); background: #F5F4FA} 
 .button-color-portfolio:hover {color: #FFFFFF; background: #2196F3} 
-.button-color-portfolio:focus{color: var(--title-color); background: #F5F4FA}
+.button-color-portfolio:focus {color: #FFFFFF; background: #2196F3} 
 .portfolio-title {font-weight: 700;
     font-size: 18px;
     line-height: 2;
