@@ -17,6 +17,7 @@ img {display: block; max-width:100%; height:auto;}
     }
 .team {background: #F5F4FA; 
     padding-top: 95px;
+    padding-bottom: 95px;
     }
 .footer {background: #2F303A;
     padding-top: 60px;
@@ -131,7 +132,6 @@ img {display: block; max-width:100%; height:auto;}
     }
 .about-us {padding-top: 95px;}
 .about-item {width: 270px;}
-.about-container {padding-bottom: 105px;}
 
 /*---team---*/  
 .name {font-weight: 500;
