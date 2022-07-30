@@ -1,9 +1,7 @@
-body {
-  font-family: "roboto", sans-serif;
-  background: #FFFFFF;}
+body {font-family: "roboto", sans-serif; background: #FFFFFF;}
 p, h1, h2, h3, h4, h5, h6 {margin: 0;}
 ul {margin: 0; padding-left: 0;}
-button {cursor: pointer; border: none;}
+button {cursor: pointer; border: none; font-family: inherit;}
 address {font-style: normal;}
 img {display: block; max-width:100%; height:auto;}
 
@@ -11,24 +9,26 @@ img {display: block; max-width:100%; height:auto;}
     border-bottom: 1px solid #ECECEC;
     padding-top: 25px;
     padding-bottom: 25px;
- }       
+    }       
 .hero {background: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
     align-content: center;
     }
-.team {background: #F5F4FA;}
+.team {background: #F5F4FA; 
+    padding-top: 95px;
+    }
 .footer {background: #2F303A;
     padding-top: 60px;
-    padding-bottom: 60px;}
+    padding-bottom: 60px;
+    }
 .container {width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;}
-
+    margin: 0 auto;
+    }
 .list {list-style: none;}
 .link {text-decoration: none;}
-
 :root {--title-color: #212121;} 
 :root {--text-colore: #757575;}
 
@@ -48,7 +48,7 @@ img {display: block; max-width:100%; height:auto;}
     color: var(--title-color);
     }  
 .site-nav:hover {color: #2196F3;}
-.site-nav:focus {color: #2196F3}
+.site-nav:focus {color: #2196F3;}
 .contacts-header {font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -56,11 +56,20 @@ img {display: block; max-width:100%; height:auto;}
     color: var(--text-colore);
     }
 .contacts-header:hover {color: #2196F3;}
-.contacts-header:focus {color: #2196F3}
+.contacts-header:focus {color: #2196F3;}
 .header-main-container {display: flex; align-items: center;}
 .header-container {display: flex;}
-.conteiner-site-nav {display: flex; column-gap: 50px; margin-left: 0 auto; margin-left: 95px; align-items: center;}
-.container-contact-header {display: flex; justify-content: flex-end; column-gap: 50px; margin-left: auto;}
+.conteiner-site-nav {display: flex; 
+    column-gap: 50px; 
+    margin-left: 0 auto; 
+    margin-left: 95px; 
+    align-items: center;
+    }
+.container-contact-header {display: flex; 
+    justify-content: flex-end; 
+    column-gap: 50px; 
+    margin-left: auto;
+    }
 
 /*---hero---*/
 .hero-title {font-weight: 900;
@@ -72,7 +81,7 @@ img {display: block; max-width:100%; height:auto;}
     color: #FFFFFF;
     margin: 0 auto 30px;
     max-width: 700px;
-}
+    }
 .button {font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -84,18 +93,16 @@ img {display: block; max-width:100%; height:auto;}
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    font-family: inherit;
-}
+    }
 .button-color-main {color: #FFFFFF; 
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     margin: 0 auto;
     padding: 10px 35px;
-}
+    }
 .button-color-main:hover {color: var(--title-color); background: #F5F4FA}
 .button-color-main:focus {color: var(--title-color); background: #F5F4FA}
-.container-hero {}
 
 /*---main---*/
 .text-title {font-weight: 700;
@@ -124,8 +131,7 @@ img {display: block; max-width:100%; height:auto;}
     }
 .about-us {padding-top: 95px;}
 .about-item {width: 270px;}
-.about-container {
-    padding-bottom: 105px;}
+.about-container {padding-bottom: 105px;}
 
 /*---team---*/  
 .name {font-weight: 500;
@@ -215,7 +221,8 @@ img {display: block; max-width:100%; height:auto;}
 .portfolio-border {border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
-    padding: 24px 20px;}
+    padding: 24px 20px;
+    }
 
     
     
