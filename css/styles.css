@@ -13,7 +13,6 @@ img {display: block; max-width:100%; height:auto;}
 .hero {background: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
-    align-content: center;
     }
 .team {background: #F5F4FA; 
     padding-top: 95px;
@@ -127,10 +126,9 @@ img {display: block; max-width:100%; height:auto;}
     color: var(--title-color);
     margin-bottom: 50px;
     }
-.about {display: flex;
-    justify-content: space-between;
-    }
-.about-us {padding-top: 95px;}
+.about {display: flex; justify-content: space-between;}
+.about-us-text {padding-top: 95px;}
+.about-us-img {padding-top: 95px; padding-bottom: 95px;}
 .about-item {width: 270px;}
 
 /*---team---*/  
@@ -197,7 +195,7 @@ img {display: block; max-width:100%; height:auto;}
     line-height: 2; 
     letter-spacing: 0.06em;
     color: var(--title-color);
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     }
 .portfolio-pre-title {font-size: 16px;
     line-height: 1.19;
@@ -214,10 +212,9 @@ img {display: block; max-width:100%; height:auto;}
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    padding-bottom: 95px;
     row-gap: 30px;
+    padding-bottom: 95px;
     }
-.portfolio-item {background: #FFFFFF;}
 .portfolio-border {border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
