@@ -5,34 +5,21 @@ button {cursor: pointer; border: none; font-family: inherit;}
 address {font-style: normal;}
 img {display: block; max-width:100%; height:auto;}
 
-.header {background: #FFFFFF;
-    border-bottom: 1px solid #ECECEC;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    }       
-.hero {background: #2F303A;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    }
-.team {background: #F5F4FA; 
-    padding-top: 95px;
-    padding-bottom: 95px;
-    }
-.footer {background: #2F303A;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    }
 .container {width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
-    }
+    margin: 0 auto;}
 .list {list-style: none;}
 .link {text-decoration: none;}
 :root {--title-color: #212121;} 
 :root {--text-colore: #757575;}
 
 /*---header---*/
+.header {background: #FFFFFF;
+    border-bottom: 1px solid #ECECEC;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }       
 .logo {font-family: 'raleway';
     font-weight: 700;
     font-size: 26px;
@@ -60,8 +47,7 @@ img {display: block; max-width:100%; height:auto;}
 .header-main-container {display: flex; align-items: center;}
 .header-container {display: flex;}
 .conteiner-site-nav {display: flex; 
-    column-gap: 50px; 
-    margin-left: 0 auto; 
+    column-gap: 50px;  
     margin-left: 95px; 
     align-items: center;
     }
@@ -72,6 +58,10 @@ img {display: block; max-width:100%; height:auto;}
     }
 
 /*---hero---*/
+.hero {background: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    }
 .hero-title {font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -132,6 +122,10 @@ img {display: block; max-width:100%; height:auto;}
 .about-item {width: 270px;}
 
 /*---team---*/  
+.team {background: #F5F4FA; 
+    padding-top: 95px;
+    padding-bottom: 95px;
+    }
 .name {font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -157,6 +151,10 @@ img {display: block; max-width:100%; height:auto;}
     }
 
 /*---footer---*/
+.footer {background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
 .logo-studio-footer {color:  #FFFFFF;}
 .address-footer {
     font-size: 14px;
