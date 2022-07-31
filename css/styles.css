@@ -140,7 +140,7 @@ img {display: block; max-width:100%; height:auto;}
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-colore);
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     }
 .team-container { width: 270px;
     background: #FFFFFF;
@@ -202,8 +202,8 @@ img {display: block; max-width:100%; height:auto;}
     }
 .conteiner-button {display: flex;
     justify-content: center;
-    padding-top: 95px;
-    padding-bottom: 50px;
+    
+    margin-bottom: 50px;
     column-gap: 8px;
     }
 .conteiner-portfolio {display: flex;
@@ -211,13 +211,13 @@ img {display: block; max-width:100%; height:auto;}
     justify-content: space-between;
     align-content: space-between;
     row-gap: 30px;
-    padding-bottom: 95px;
     }
 .portfolio-border {border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     padding: 24px 20px;
     }
+.main-container-portfolio {padding-top: 95px; padding-bottom: 95px;}
 
     
     
