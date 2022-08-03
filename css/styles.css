@@ -94,7 +94,9 @@ img {display: block; max-width:100%; height:auto;}
 .button-color-main:hover {color: var(--title-color); background: #F5F4FA}
 .button-color-main:focus {color: var(--title-color); background: #F5F4FA}
 
+/* .background-image {width: 1600px; height: 600px; margin: 0 auto; background-image: ;} */
 /*---main---*/
+
 .text-title {font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
